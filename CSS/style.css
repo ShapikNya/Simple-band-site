@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#podtsvetka {
+  position: relative;
+  transition: 1s;
+
+}
+
+#podtsvetka::after {
+  content: "";
+  transition: 1s;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  height: 2px;
+  width: 0;
+}
+
+#podtsvetka:hover::after {
+  width: 100%;
+}
+
+#podtsvetka:hover {
+  font-size: 27px;
+}
+
+a:visited {
+    color: white;
+}
+
+.top-header {
+    width: 100%;
+    padding: 25px 0;
+    background-color: #181818;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.bottom-header {
+    width: 100%;
+    background-color: #181818;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom-header-container {
+    width: 1440px;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.main {
+    min-height: 600px;
+    padding: 50px 0;
+    background-image: url("../Image/image.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.text-block {
+    width: 1200px;
+    background-color: #181818;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text-block img {
+    width: 100%;
+    height: auto;
+}
+
+.link-block {
+    width: 100%;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.footer {
+    width: 100%;
+    padding: 25px 0;
+    background-color: #181818;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+td {
+  border:1px solid white; font-size: 15px;
+}
+
+th {
+  border:1px solid white;
+}
+
+.Adress {
+  font-size: 22px;
+}
+
+.data {
+  font-size: 18px
+}
+
+#sp {  font-size: 19px;
+
+}
